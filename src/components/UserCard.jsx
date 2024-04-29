@@ -20,9 +20,9 @@ const UserCard = () => {
     }, []);
 
     return (
-        <div className="card mt-20 mx-auto w-4/12 rounded overflow-hidden shadow-lg">
+        <div className="card mt-20 mx-auto w-full md:w-4/12 rounded overflow-hidden shadow-lg">
             {user && (
-                <div className="flex border bottom-2 rounded-xl gap-5 p-5">
+                <div className="md:flex border bottom-2 rounded-xl gap-5 p-5">
                     <div>
                         <img className="w-full rounded-xl" src={user.picture.large} alt={user.name.first} />
                     </div>
