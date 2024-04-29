@@ -26,7 +26,7 @@ const UserCard = () => {
                     <div>
                         <img className="w-full rounded-xl" src={user.picture.large} alt={user.name.first} />
                     </div>
-                    <div className="px-6 py-4">
+                    <div className="py-4">
                         <div className="font-bold text-xl mb-2">{`${user.name.first} ${user.name.last}`}</div>
                         <p className="text-gray-700 text-base">
                             Gender: {user.gender}
