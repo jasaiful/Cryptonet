@@ -3,8 +3,8 @@ import UserCard from "../components/UserCard";
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is Home!</h2>
+        <div className="max-w-7xl mt-10 mx-auto">
+            <h2 className="text-center font-semibold text-2xl">Cryptonet Technologies Private Limited</h2>
             <UserCard></UserCard>
         </div>
     );
